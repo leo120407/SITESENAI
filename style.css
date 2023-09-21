@@ -16,7 +16,7 @@ body {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background: radial-gradient(#ffffff, 20%, #008bc2);
+  background-image: url("hollow.png");
   position: relative;
 }
 .hero header .logo h2 a {
@@ -169,4 +169,8 @@ nav ul li.btn:hover a {
 
 .title {
   color: #ffffff;
+}
+
+body {
+  background-image: url("hollow.png");
 }
