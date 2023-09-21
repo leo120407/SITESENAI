@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#ffffff, 20%, #008bc2);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#formbox {
+    margin: auto;
+    background-color: white;
+    width: 25%;
+    max-width: 30em;
+    min-width: 25em;
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 1em;
+    box-shadow: -0.20em 0.20em rgba(0, 0, 0, 0.281);
+    border-style: solid;
+    border-color: rgba(0, 140, 255, 0.342);
+}
+#title {
+    font-family: "Poppins", sans-serif;
+    color: #008bc2;
+}
+#btn {
+    font-family: "Poppins", sans-serif;
+    border-radius: 2em;
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: #008bc2;
+    border-style: none;
+    color: white;
+}

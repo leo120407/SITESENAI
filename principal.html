@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming website w/ HTML & CSS</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body onload="writetitle()">
+    <section class="hero">
+      <div class="main-width">
+        <header>
+          <div class="logo">
+            <h2 class="title"><a href="#"></a>Olá, </h2>
+          </div>
+
+          <nav>
+            <ul>
+              <li class="active"><a href="#">Games</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li class="btn"><a href="#">Download</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="content">
+          <div class="main-text">
+            <h6>#1 Trending</h6>
+            <h3>Class 6 & 7</h3>
+            <h1>GAME</h1>
+            <p>
+              Jogo em desenvolvimento!<br />
+              Beta prevista para metade de Outubro!
+            </p>
+            <a href="#">Jogue agora</a>
+            <a href="#" class="cta">
+              <i class="fa-solid fa-play">Assistir Gameplay</i></a
+            >
+          </div>
+          <div class="social">
+            <a href=""><i class="fa-brands fa-windows"></i></a>
+            <a href=""><i class="fa-brands fa-apple"></i></a>
+            <a href=""><i class="fa-solid fa-n"></i></a>
+            <a href=""><i class="fa-brands fa-playstation"></i></a>
+            <a href=""><i class="fa-brands fa-xbox"></i></a>
+            <a href=""><i class="fa-brands fa-android"></i></a>
+          </div>
+          <div class="changenick" onclick="changenick()">
+            <i style='color:white'>Mudar de nick</i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
