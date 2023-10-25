@@ -1,3 +1,6 @@
+window.onload = function () {
+    autoredirect()
+}
 function autoredirect() {
     if (!!localStorage.getItem("nick")) {
         window.location.replace("principal.html")

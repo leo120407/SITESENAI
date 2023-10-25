@@ -16,7 +16,6 @@ body {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background-image: url(../imagens/hollow.png);
   position: relative;
 }
 .hero header .logo h2 a {
@@ -165,8 +164,35 @@ nav ul li.btn:hover a {
 .changenick:hover {
   text-decoration: underline;
   text-decoration-color: white;
+  cursor: pointer;
 }
 
 .title {
   color: #ffffff;
+}
+
+.back-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100vh;
+  }
+}
+
+#gicon {
+  width: 20%;
+  height: 20%;
 }
