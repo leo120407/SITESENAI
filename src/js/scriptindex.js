@@ -6,6 +6,14 @@ function autoredirect() {
         window.location.replace("principal.html")
     }
 }
+var nickf = document.getElementById("inputnick")
+
+nickf.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      inick()
+    }
+  });
 
 function inick() {
     let nick = document.getElementById("inputnick").value
